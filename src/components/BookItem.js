@@ -19,7 +19,7 @@ const BookItem = ({ book }) => {
         Category:
         {category}
       </p>
-      <button type="button" bookItemID={id}>Remove</button>
+      <button type="button" itemID={id}>Remove</button>
     </li>
   );
 };
