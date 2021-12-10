@@ -20,7 +20,6 @@ body {
 }
 
 .navigation {
-  display: flex;
   justify-content: space-between;
   width: 80%;
   height: 75px;
@@ -29,7 +28,6 @@ body {
 }
 
 .navigation ul {
-  display: flex;
   align-items: center;
   margin: 0;
   padding: 0;
@@ -124,8 +122,8 @@ body {
   text-decoration: none;
 }
 
-.add-book > * {
-  margin-right: 10px;
+.add-book {
+  justify-content: space-between;
 }
 
 .navigation ul > *:hover {
@@ -197,7 +195,6 @@ body {
 }
 
 .user-profile-wrapper {
-  display: flex;
   justify-content: center;
   align-items: center;
   border: solid 1px #e8e8e8;
@@ -206,7 +203,6 @@ body {
 }
 
 .add-book-section {
-  display: flex;
   flex-direction: column;
   padding-bottom: 100px;
 }
@@ -218,8 +214,8 @@ body {
 
 .hr {
   background: #e8e8e8;
-  height: 2px;
-  margin: 30px 0 10px 0;
+  height: 1px;
+  margin: 35px 0 15px 0;
 }
 
 .add-book-section h1 {
@@ -233,7 +229,7 @@ body {
   border-radius: 4px;
   border: solid 1px #e8e8e8;
   background-color: #fff;
-  padding: 10px;
+  padding: 12px;
   width: 55%;
 }
 
@@ -255,7 +251,7 @@ select {
   border-radius: 3px;
   background: var(--main-acent-color);
   padding: 10px;
-  width: 15%;
+  width: 17%;
 }
 
 option:first-child {

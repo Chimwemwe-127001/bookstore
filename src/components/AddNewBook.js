@@ -50,9 +50,9 @@ const AddNewBook = () => {
   return (
     <>
       <div className="hr" />
-      <form className="add-book-section" onSubmit={submitBookToStore}>
+      <form className="add-book-section d_flex" onSubmit={submitBookToStore}>
         <h1>ADD NEW BOOK</h1>
-        <div className="add-book">
+        <div className="add-book d_flex">
           <input
             type="text"
             placeholder="Book title"
@@ -60,8 +60,8 @@ const AddNewBook = () => {
             onChange={onChange}
             required
           />
-          <select placeholder="categories" name="category" onChange={onChange} required>
-            <option value="" hidden>Choose Category</option>
+          <select name="category" onChange={onChange} required>
+            <option value="" hidden>Category</option>
             <option value="Romance">Romance</option>
             <option value="Documentary">Documentary</option>
             <option value="Fiction">Fiction</option>
