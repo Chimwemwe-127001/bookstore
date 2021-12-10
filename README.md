@@ -5,7 +5,7 @@
   - Remove a selected book.
 
 ## Live Demo
-> Live demo link coming soon
+> Click [here](https://bookstore-chimwemwe-127001.netlify.app/) to see the live demo
 
 ### Built With
 
